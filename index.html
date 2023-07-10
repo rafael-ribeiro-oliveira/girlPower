@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto grl-pwr - Semana do Zero Ao Programador Contratado</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+     
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="feiticeira-escarlate" data-name="Feiticeira Escarlate" data-description="O poder principal de Wanda é a habilidade sobre-humana de manipular a poderosa magia conhecida como magia do Caos, uma magia negra, 
+          o que lhe permite alterar a realidade e controlar várias formas de energia mística.">
+            <img
+              src="./src/imagens/card-feiticeira-escarlate.jpg"
+              alt="Personagem Feiticeira Escarlate"
+            />
+          </li>
+          <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="Jean Grey é uma mutante nível ômega e o principal avatar da Força Fênix, no qual manifesta poderes cósmicos. A telepatia e telecinese.">
+            <img
+              src="./src/imagens/card-jean-grey.jpg"
+              alt="Personagem Jean Grey"
+            />
+          </li>
+
+          <li class="personagem" id="lince-negra" data-name="Lince Negra" data-description="Ela tem o poder de atravessar matéria sólida,campos de energia,rajadas ópticas, continuando intacta,e também tem o poder de andar no ar.">
+            <img
+              src="./src/imagens/card-lince-negra.jpg"
+              alt="Personagem Lince Negra"
+            />
+          </li>
+
+          <li class="personagem" id="tempestade" data-name="Tempestade" data-description="Tem o poder de controlar as forças da natureza, muito poderosa ela pode produzir raios, chuvas, gelos, ventos, neblina, entre outros efeitos.">
+            <img
+              src="./src/imagens/card-tempestade.jpg"
+              alt="Personagem Tempestade"
+            />
+          </li>
+
+          <li class="personagem" id="vampira" data-name="Vampira" data-description="Ela tem o poder de absorver a vitalidade e memória das pessoas que toca ou no caso dos mutantes os poderes e a memória, mas só temporariamente.">
+            <img
+              src="./src/imagens/card-vampira.jpg"
+              alt="Personagem Vampira"
+            />
+          </li>
+
+          <li class="personagem" id="rainha-branca" data-name="Rainha Branca" data-description="Poder de telepatia, sendo capaz de ler mentes, projetar pensamentos, implantar ilusões em mentes alheias e projetar uma forma astral.">
+            <img
+              src="./src/imagens/card-rainha-branca.jpg"
+              alt="Personagem Rainha Branca"
+            />
+          </li>
+
+          <li class="personagem" id="capita-marvel" data-name="Capitã Marvel" data-description="consegue voar, possui supervelocidade, força, resistência e durabilidade mais evoluídas que um humano comum, 
+          além de também conseguir absorver e manipular energia.">
+            <img
+              src="./src/imagens/card-capita-marvel.jpg"
+              alt="Personagem Capita Marvel"
+            />
+          </li>
+
+          <li class="personagem" id="polaris" data-name="Polaris" data-description="Polaris é bastante poderosa, sendo capaz de controlar os campos magnéticos da Terra, criar pulsos magnéticos, voar, 
+          entender o ambiente ao seu redor através dos campos magnéticos, absorver energia e, é claro, manipular metais, além de conseguir controlar o ferro presente no corpo.">
+            <img
+              src="./src/imagens/card-polaris.jpg"
+              alt="Personagem Polaris"
+            />
+          </li>
+
+          <li class="personagem" id="psylocke" data-name="Psylocke" data-description="desenvolveu seus poderes mentais para interagir, afetar, controlar, paralisar e manipular as 
+          mentes de outros seres vivos a longas e curtas distâncias. Quando ela faz uso de sua telepatia, uma grande imagem parecida com uma borboleta geralmente é projetada . Suas habilidades telepáticas são 
+          medianas e foi capaz de produzir a lâminas psíquicas.">
+            <img
+              src="./src/imagens/card-psylocke.jpg"
+              alt="Personagem Psylocke"
+            />
+          </li>
+
+          <li class="personagem" id="elektra" data-name="Elektra" data-description="controle de mente temporário lhe permite literalmente farejar a psique, ou intenção, de seus alvos. Ela viu o uso extensivo durante 
+          Elektra: Assassina, em que ela era fortemente dependente apenas de seus poderes ninja. Não se sabe quanto tempo dura o efeito, mas Elektra passou um total de dois dias ou mais na mente de outra pessoa enquanto 
+          perdida na dela.">
+            <img
+              src="./src/imagens/card-elektra.jpg"
+              alt="Personagem Elektra"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/card-feiticeira-escarlate.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Feiticeira Escarlate</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Ele tem o poder de disparar rajadas ópticas por um acidente que
+            aconteceu com ele quando criança, mas não consegue controlá-los
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
